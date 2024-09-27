@@ -4,13 +4,14 @@ using ReversePolishNotation;
 
 var testProgram = new[]
 {
-    Operation.Put(5), 
-    Operation.Put(6), 
-    Operation.Put(5), 
+    Operation.Put(3), 
+    Operation.Put(4), 
+    Operation.Put(9), 
     Operation.Add, 
-    Operation.Mul, 
-    Operation.Put(7), 
-    Operation.Sub 
+    Operation.Div, 
+    Operation.Put(-7), 
+    Operation.Add,
+    Operation.Sqrt
 };
 
 Console.WriteLine($"[{string.Join(", ", testProgram.Select(it => it.ToString()))}]");
