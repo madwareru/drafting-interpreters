@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReversePolishNotation", "ReversePolishNotation\ReversePolishNotation.csproj", "{208943A9-A477-4531-8894-CD2ABB501E51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevesrePolishNotationTests", "RevesrePolishNotationTests\RevesrePolishNotationTests.csproj", "{0F00E821-B620-48E9-9894-D5CFC18C5FA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{208943A9-A477-4531-8894-CD2ABB501E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{208943A9-A477-4531-8894-CD2ABB501E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{208943A9-A477-4531-8894-CD2ABB501E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{208943A9-A477-4531-8894-CD2ABB501E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F00E821-B620-48E9-9894-D5CFC18C5FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F00E821-B620-48E9-9894-D5CFC18C5FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F00E821-B620-48E9-9894-D5CFC18C5FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F00E821-B620-48E9-9894-D5CFC18C5FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
