@@ -6,8 +6,8 @@ using ReversePolishNotation;
 
 var testProgram = new[]
 {
-    Operation.Put(3), 
-    Operation.Put(4), 
+    Operation.Put(256), 
+    Operation.Put(7), 
     Operation.Put(9), 
     Operation.Add, 
     Operation.Div, 
@@ -17,3 +17,4 @@ var testProgram = new[]
 };
 
 Console.WriteLine($"[{string.Join(", ", testProgram.Select(it => it.ToString()))}]");
+Console.WriteLine($"Execution result is {Operation.Eval(testProgram)}");
